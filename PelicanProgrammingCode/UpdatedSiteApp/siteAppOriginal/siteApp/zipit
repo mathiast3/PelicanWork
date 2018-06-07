@@ -1,0 +1,3 @@
+#! /bin/sh
+rm /tmp/pkg.zip
+zip /tmp/pkg.zip ./manifest.json ./templates/main.hdbs ./templates/layout.hdbs ./translations/en.json ./app.css ./app.js
